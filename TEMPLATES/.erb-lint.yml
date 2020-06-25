@@ -1,0 +1,26 @@
+
+---
+
+EnableDefaultLinters: true
+
+linters:
+
+  AllowedScriptType:
+    allowed_types:
+      - 'text/javascript'
+      - 'stimulus/template'
+
+  ClosingErbTagIndent:
+    enabled: false
+
+  ErbSafety:
+    enabled: false
+
+  HardCodedString:
+    enabled: false
+
+  Rubocop:
+    enabled: false
+    rubocop_config:
+      inherit_from:
+        - .rubocop.yml
