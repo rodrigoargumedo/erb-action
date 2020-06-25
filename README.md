@@ -4,8 +4,8 @@ A Github action to run the `erb-lint` gem on your project.
 
 ## Table of Contents
 
-* Usage
-* License
+* [Usage](#usage)
+* [License](#license)
 
 ## Usage
 
