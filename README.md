@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Erb Linter
-      uses: revans/erb-action@v0.0.4
+      uses: revans/erb-action@v0.0.5
       env:
         GITHUB_TOKEN: ${{secrets.github_token}}
 
