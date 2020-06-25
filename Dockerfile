@@ -12,7 +12,6 @@ LABEL "com.github.actions.color"="red"
 LABEL "repository"="https://github.com/revans/erb-action"
 LABEL "version"="v0.0.4"
 
-COPY index.rb /action/index.rb
 COPY entrypoint.sh /entrypoint.sh
 
 RUN chmod +x /entrypoint.sh
