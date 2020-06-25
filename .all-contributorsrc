@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "revans",
+      "name": "Robert Evans",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/394?s=460&v=4",
+      "profile": "http://www.codewranglers.org",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "erb-action",
+  "projectOwner": "revans",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

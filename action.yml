@@ -1,0 +1,11 @@
+name: 'Erb Action'
+description: 'A GitHub Action that lets you easily run erb linting for Ruby on Rails.'
+author: 'Robert Evans <robert@codewranglers.org>'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+env:
+  GITHUB_TOKEN: secrets.github_token
+branding:
+  icon: 'check-square'
+  color: 'white'
