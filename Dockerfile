@@ -12,8 +12,12 @@ LABEL "com.github.actions.color"="red"
 LABEL "repository"="https://github.com/revans/erb-action"
 LABEL "version"="v0.0.4"
 
+##################################
+# Copy linter rules to container #
+##################################
+COPY TEMPLATES /action/lib/.automation
+
+
 COPY entrypoint.sh /entrypoint.sh
-
 RUN chmod +x /entrypoint.sh
-
 ENTRYPOINT ["/entrypoint.sh"]
