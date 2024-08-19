@@ -1,4 +1,4 @@
-FROM ruby:2.6.5-alpine
+FROM ruby:3.3.4-alpine
 
 ENV LANG C.UTF-8
 RUN apk add --no-cache libstdc++ libuv
