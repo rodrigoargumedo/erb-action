@@ -25,6 +25,6 @@ fi
 
 sh -c "gem install erb_lint"
 
-command="erblint --config ${FILE_LOCATION} --lint-all"
+command="erblint --lint-all"
 cd "$GITHUB_WORKSPACE"
 sh -c $command
